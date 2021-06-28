@@ -221,9 +221,14 @@
 
 /* Small Screen Typewriter */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1100px) {
   .typewriter__texts li {
-    font-size: 1.2em;
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .typewriter__texts li {
+    font-size: 0.9em;
   }
 }
 
